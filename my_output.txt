@@ -1,0 +1,66 @@
+Loading mastercat:  <HDF5 file "Y3_mastercat_w_y3rmg_b3_v1.9.2.h5" (mode r)> 
+
+Available files: 
+[u'catalog', u'randoms', u'index', u'masks', u'regions'] 
+
+Available catalogs in catalog: 
+[u'metacal', u'gold', u'bpz', u'redmagic', u'redmapper'] 
+
+-------------------------------------------------------------------------------- Metacal --------------------------------------------------------------------------------
+
+- Loading catalog/metacal:  <HDF5 group "/catalog/metacal" (1 members)> 
+
+Available catalog/metacal sub-catalogs: 
+[u'unsheared'] 
+
+Columns in catalog/metcal/unsheared: 
+[u'coadd_object_id', u'dec', u'e1', u'e2', u'flags', u'g1', u'g2', u'kappa', u'mask_frac', u'ra', u'size'] 
+
+-------------------------------------------------------------------------------- Gold --------------------------------------------------------------------------------
+
+Loading catalog/gold:  <HDF5 group "/catalog/gold" (18 members)> 
+
+Columns in catalog/gold: 
+[u'coadd_object_id', u'dec', u'flags_gold', u'hpix_16384', u'ivar_g', u'ivar_i', u'ivar_r', u'ivar_z', u'mag_err_g', u'mag_err_i', u'mag_err_r', u'mag_err_z', u'mag_g', u'mag_i', u'mag_r', u'mag_z', u'ra', u'z'] 
+
+-------------------------------------------------------------------------------- BPZ --------------------------------------------------------------------------------
+
+Loading catalog/bpz:  <HDF5 group "/catalog/bpz" (1 members)> 
+
+Available catalog/bpz sub-catalogs: 
+[u'unsheared'] 
+
+Columns in catalog/bpz/unsheared: 
+[u'coadd_object_id', u'z', u'zmc_sof', u'zmean_sof'] 
+
+-------------------------------------------------------------------------------- redmagic --------------------------------------------------------------------------------
+
+Loading catalog/redmagic:  <HDF5 group "/catalog/redmagic" (4 members)> 
+
+Available catalog/redmagic sub-catalogs: 
+[u'combined_sample_fid', u'highdens', u'higherlum', u'highlum'] 
+
+Columns in catalog/redmagic/combined_sample_fid: 
+[u'chisq', u'coadd_object_id', u'dec', u'mabs', u'mabs_err', u'model_mag', u'model_magerr', u'ra', u'redmagicflag', u'zlum', u'zmag', u'zmag_err', u'zredmagic', u'zredmagic_e', u'zspec'] 
+
+Columns in catalog/redmagic/highdens: 
+[u'chisq', u'coadd_object_id', u'dec', u'mabs', u'mabs_err', u'model_mag', u'model_magerr', u'ra', u'redmagicflag', u'zlum', u'zmag', u'zmag_err', u'zredmagic', u'zredmagic_e', u'zspec'] 
+
+Columns in catalog/redmagic/higherlum: 
+[u'chisq', u'coadd_object_id', u'dec', u'mabs', u'mabs_err', u'model_mag', u'model_magerr', u'ra', u'redmagicflag', u'zlum', u'zmag', u'zmag_err', u'zredmagic', u'zredmagic_e', u'zspec'] 
+
+Columns in catalog/redmagic/highlum: 
+[u'chisq', u'coadd_object_id', u'dec', u'mabs', u'mabs_err', u'model_mag', u'model_magerr', u'ra', u'redmagicflag', u'zlum', u'zmag', u'zmag_err', u'zredmagic', u'zredmagic_e', u'zspec'] 
+
+-------------------------------------------------------------------------------- redmapper --------------------------------------------------------------------------------
+
+Loading catalog/redmapper:  <HDF5 group "/catalog/redmapper" (2 members)> 
+
+Available catalog/redmapper sub-catalogs: 
+[u'lgt20', u'lgt5'] 
+
+Columns in catalog/redmapper/lgt5: 
+[u'bcg_ilum', u'bcg_spec_z', u'c_lambda', u'c_lambda_err', u'chisq', u'dec', u'dec_cent', u'dec_orig', u'dlambda_dz', u'dlambda_dz2', u'dlambdavar_dz', u'dlambdavar_dz2', u'ebv_mean', u'geomaskfrac', u'id_cent', u'ilum', u'lambda_chisq', u'lambda_chisq_c', u'lambda_chisq_ce', u'lambda_chisq_cent', u'lambda_chisq_e', u'lambda_zred', u'lambda_zred_e', u'lim_exptime', u'lim_limmag', u'lim_limmag_dered', u'lim_limmag_hard', u'lnbcglike', u'lnlamlike', u'lnlike', u'mag_lambda_err', u'maskfrac', u'maskgal_index', u'mem_match_id', u'members', u'model_mag', u'model_magerr', u'ncent', u'ncent_good', u'ncross', u'p_bcg', u'p_c', u'p_cen', u'p_fg', u'p_sat', u'pz', u'pzbins', u'q_cen', u'q_miss', u'r_lambda', u'ra', u'ra_cent', u'ra_orig', u'refmag', u'refmag_err', u'rmask', u'scaleval', u'w', u'z', u'z_init', u'z_lambda', u'z_lambda_e', u'z_lambda_e_raw', u'z_lambda_niter', u'z_lambda_raw', u'z_spec_init', u'zlambda_cent', u'zred', u'zred_chisq', u'zred_e'] 
+
+Columns in catalog/redmapper/lgt20: 
+[u'bcg_ilum', u'bcg_spec_z', u'c_lambda', u'c_lambda_err', u'chisq', u'dec', u'dec_cent', u'dec_orig', u'dlambda_dz', u'dlambda_dz2', u'dlambdavar_dz', u'dlambdavar_dz2', u'ebv_mean', u'geomaskfrac', u'id_cent', u'ilum', u'lambda_chisq', u'lambda_chisq_c', u'lambda_chisq_ce', u'lambda_chisq_cent', u'lambda_chisq_e', u'lambda_zred', u'lambda_zred_e', u'lim_exptime', u'lim_limmag', u'lim_limmag_dered', u'lim_limmag_hard', u'lnbcglike', u'lnlamlike', u'lnlike', u'mag_lambda_err', u'maskfrac', u'maskgal_index', u'mem_match_id', u'members', u'model_mag', u'model_magerr', u'ncent', u'ncent_good', u'ncross', u'p_bcg', u'p_c', u'p_cen', u'p_fg', u'p_sat', u'pz', u'pzbins', u'q_cen', u'q_miss', u'r_lambda', u'ra', u'ra_cent', u'ra_orig', u'refmag', u'refmag_err', u'rmask', u'scaleval', u'w', u'z', u'z_init', u'z_lambda', u'z_lambda_e', u'z_lambda_e_raw', u'z_lambda_niter', u'z_lambda_raw', u'z_spec_init', u'zlambda_cent', u'zred', u'zred_chisq', u'zred_e'] 
